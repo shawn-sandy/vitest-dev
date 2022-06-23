@@ -2,9 +2,10 @@
   "name": "@vitest/example-testing-lib-react",
   "private": true,
   "scripts": {
+    "start": "vite --open",
+    "dev": "vite",
     "build": "tsc && vite build",
     "coverage": "vitest run --coverage",
-    "dev": "vite",
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui --coverage"
@@ -25,6 +26,7 @@
     "c8": "^7.11.3",
     "jsdom": "latest",
     "vite": "^2.9.9",
+    "vite-plugin-dts": "^1.2.0",
     "vitest": "latest"
   },
   "stackblitz": {
