@@ -5,6 +5,7 @@
     "start": "vite --open",
     "dev": "vite",
     "build": "tsc && vite build",
+    "package": "tsc && vite build --mode package",
     "coverage": "vitest run --coverage",
     "preview": "vite preview",
     "test": "vitest",
