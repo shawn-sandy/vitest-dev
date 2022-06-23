@@ -7,7 +7,7 @@ import { resolve } from 'node:path'
 import dts from "node:path"
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ mode }) => {
   // plugins: [react()],
 
   if (mode !== 'package') {
